@@ -16,11 +16,11 @@
 <br/>
 
 ### Laguages and Tools:
-[<img align="left" alt="Sass" width="26px" src="https://github.com/Web-Artist-gig/Web-Artist-gig/blob/main/img/584830f5cef1014c0b5e4aa1.png"/>]
+[<img align="left" alt="Sass" width="26px" src="https://github.com/Web-Artist-gig/Web-Artist-gig/blob/main/img/584830f5cef1014c0b5e4aa1.png"/>][<span>React</span>]
 
-[<img align="left" alt="Sass" width="26px" src="https://github.com/Web-Artist-gig/Web-Artist-gig/blob/main/img/javascript.png"/>]
+[<img align="left" alt="Sass" width="26px" src="https://github.com/Web-Artist-gig/Web-Artist-gig/blob/main/img/javascript.png"/>][<span>JavaScript</span>]
 
-[<img align="left" alt="Sass" width="26px" src="https://github.com/Web-Artist-gig/Web-Artist-gig/blob/main/img/css.png"/>]
+[<img align="left" alt="Sass" width="26px" src="https://github.com/Web-Artist-gig/Web-Artist-gig/blob/main/img/css.png"/>][<span>CSS</span>]
 
 ### Current YouTube Channel:
 [<a href="https://youtube.com/channel/UCdFkTftKaGMzGDewsHgvoyg">YouTube Channel</a>]
