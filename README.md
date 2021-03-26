@@ -1,6 +1,6 @@
 # WEB-ARTIST YouTube tutorials.
 
-## Hello, I'm web-artist-gig[WEB-ARTIST]
+## Hello, I'm web-artist-gig...
 
 ### I'm a Developer,Learner,Teacher and Adviser!
 <br/>
@@ -16,9 +16,11 @@
 <br/>
 
 ### Laguages and Tools:
-[<img align="left" alt="Sass" width="26px" src="https://github.com/Web-Artist-gig/Web-Artist-gig/blob/main/img/584830f5cef1014c0b5e4aa1.png"/>][React]
-[<img align="left" alt="Sass" width="26px" src="https://github.com/Web-Artist-gig/Web-Artist-gig/blob/main/img/javascript.png"/>][JavaScript]
-[<img align="left" alt="Sass" width="26px" src="https://github.com/Web-Artist-gig/Web-Artist-gig/blob/main/img/css.png"/>][CSS]
+[<img align="left" alt="Sass" width="26px" src="https://github.com/Web-Artist-gig/Web-Artist-gig/blob/main/img/584830f5cef1014c0b5e4aa1.png"/>]
+
+[<img align="left" alt="Sass" width="26px" src="https://github.com/Web-Artist-gig/Web-Artist-gig/blob/main/img/javascript.png"/>]
+
+[<img align="left" alt="Sass" width="26px" src="https://github.com/Web-Artist-gig/Web-Artist-gig/blob/main/img/css.png"/>]
 
 ### Current YouTube Channel:
-[<a href="https://youtube.com/channel/UCdFkTftKaGMzGDewsHgvoyg">YouTube Channel</a>
+[<a href="https://youtube.com/channel/UCdFkTftKaGMzGDewsHgvoyg">YouTube Channel</a>]
