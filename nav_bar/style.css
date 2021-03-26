@@ -1,0 +1,108 @@
+
+:root{
+    
+    --overall-color:#eee;
+    --nav-background:#111;
+    --a-hover-color:#d45501;
+    --ul-background:#4e4d4d;
+    --a-hover-background:#4e4d4d;
+    --checkbtn-hover:#38393b;
+    --box-shadow:0 1px 1px rgba(255,255,255,0.3),
+                inset 0 2px 1px rgba(255,255,255,0.3);
+    --box-shadow-hover:0 1px 1px rgb(255,255,255,0.3),
+                inset 0 2px 1px rgba(0,0,0,0.9);
+    --checkbtn-background:linear-gradient(#4e4d4d,#111);
+}
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    list-style: none;
+    text-decoration: none;
+    color: var(--overall-color);
+}
+body{
+    height: 100vh;
+    background: url("img/room.jpg") no-repeat center center/cover;
+}
+nav{
+    height: 120px;
+    width: 100%;
+    padding-top: 40px;
+    background: var(--nav-background);
+}
+nav label.logo{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+nav ul{
+    float: right;
+    margin-right: 50px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+nav .checkbtn{
+    float: left;
+    line-height: 40px;
+    font-size: 30px;
+    width: 70px;
+    margin-left: 30px;
+    text-align: center;
+    border-radius: 5px;
+    background:var(--checkbtn-background) ;
+    box-shadow:var(--box-shadow) ;
+    display: none;
+}
+nav .checkbtn:hover{
+    background: var(--checkbtn-hover);
+}
+nav ul li a:hover ,nav ul li a.active{
+    background: var(--a-hover-background);
+    padding: 3px 6px;
+    border-radius: 3px;
+}
+#check{
+    display: none;
+}
+@media(max-width:970px){
+    nav label.logo{
+        font-size: 30px;
+    }
+}
+@media(max-width:858px){
+    nav .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        top: 120px;
+        left: -100%;
+        height: 100vh;
+        width: 100%;
+        padding-top: 50px;
+        text-align: center;
+        transition: all 0.5s;
+        background: var(--ul-background);
+    }
+    nav ul li{
+        display: block;
+    }
+    nav ul li a:hover ,nav ul li a.active{
+        background: none;
+        color: var(--a-hover-color);
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
