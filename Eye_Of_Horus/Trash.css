@@ -1,0 +1,78 @@
+:root{
+    --path:#2F3545;
+    --dot:#94ACBF;
+    --duration:3s;
+    --dot-duration:3s;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #feefc6ff;
+}
+svg{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.loader{
+    width: 352px;
+    height: 352px;
+    position: relative;
+}
+.loader .fa-eye{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 50%;
+    left: 43%;
+}
+.loader::before{
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    display: block;
+    background: var(--dot);
+    top:271px;
+    left: 167px;
+    transform: translate(-77px,-151px);
+    animation:dotTriangle var(--dot-duration) cubic-bezier(0.785, 0.135,0.15,0.86) infinite;
+    animation-delay: 0.05s;
+}
+svg polygon{
+    fill: none;
+    stroke:var(--path);
+    stroke-width: 2px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}
+polygon{
+    stroke-dasharray: 145 76 145 76;
+    stroke-dashoffset: 0;
+    animation: pathTriangle var(--duration) cubic-bezier(0.785,0.35,0.15,0.86) infinite;
+}
+@keyframes pathTriangle{
+    33%{
+        stroke-dashoffset: 74;
+    }
+    66%{
+        stroke-dashoffset: 147;
+    }
+    100%{
+        stroke-dashoffset: 221;
+    }
+}
+@keyframes dotTriangle{
+    25%{
+        transform: translate(4px,4px);
+    }
+    50%{
+        transform: translate(77px,-151px);
+    }
+    100%{
+        transform:translate(-77px,-151px);
+    }
+}
