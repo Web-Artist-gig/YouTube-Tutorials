@@ -1,0 +1,50 @@
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing:inherit;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom right,DeepSkyBlue,PaleGreen,Tomato,Greenyellow,orange);
+    background-size: 1000% 1000%;
+    background-position: 0% 50%;
+    animation:anime 60s linear 0s infinite;
+}
+.app header{
+    text-align: center;
+}
+.app .audio{
+    border: 1px solid #000;
+    margin: 15px 0;
+}
+.app .audio .tap{
+    float: left;
+    margin:10px 5px 0 5px;
+}
+.audio .tap div{
+    height: 40px;
+    width: 40px;
+    background: gray;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.audio .tap div:hover{
+    background: rgb(240, 196, 166);
+}
+@keyframes anime{
+    50%{
+        background-position: 100% 50%;
+    }
+}
